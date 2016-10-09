@@ -16,3 +16,21 @@
 /Users/rehaf/Desktop/DnD 5e - Copy/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/rehaf/Desktop/DnD 5e - Copy/obj/Debug/Assembly-CSharp.dll
 /Users/rehaf/Desktop/DnD 5e - Copy/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/obj/Debug/Assembly-CSharp.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/UnityEngine.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/UnityEditor.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Mono.Cecil.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Unity.DataContract.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Mono.Cecil.Mdb.dll
