@@ -8,7 +8,15 @@ public class Node {
     //costs used in a star calulations for node values 
     public float hCost; //huristic cost 
 	public float gCost;
-	public float Fcost;
+//	public float fcost;
+	//
+
+	public float fCost{
+	//getter method 
+		get {
+			return hCost+ gCost;
+		}
+	}
 
 	public Node parentNode;
 
@@ -16,9 +24,13 @@ public class Node {
 	NodeType mynode;
 
 	//to calculate the fcost 
+
+
+
+
 	public float getFCost(){
-		Fcost=  gCost + hCost; //basic cost - add method to ovverride it 
-		return Fcost;
+	 //basic cost - add method to ovverride it 
+		return  gCost + hCost;
 	}
 
 	//constuctor of a node class - sets it to walkable / world postions 
