@@ -57,7 +57,7 @@ public class Grid : MonoBehaviour {
         // draw cubes for refrence 
         if (grid != null){
         	//draw the player/ bot 
-			Node botNode = getWorldPoint( Bot.position);
+			Node botNode = GetNodeLocation( Bot.position);
             foreach (Node node in grid)
             {
             	//short hand for if - is the nide walkbale? yes white else red 
@@ -73,7 +73,8 @@ public class Grid : MonoBehaviour {
     }
 
     //16 min.
-    public Node getWorldPoint(Vector3 worldPos)
+    //retuns te postion of the node in the x,z,y axsis plane //i.e.  in the world 
+    public Node GetNodeLocation(Vector3 worldPos)
 
     //need to get thw postion of the player/ bot 
     //the formual is used from the tutorial series as refrenced by prof.Maccoy 
