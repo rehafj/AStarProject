@@ -3,27 +3,51 @@ using System.Collections;
 
 public class Node {
     public bool walkable;
-    public Vector3 worldPosition; // instead of game object ? 
+    public Vector3 worldPosition; // (x,y,z )  postion of the object, reminder our y is our z and vise versa 
 
     //costs used in a star calulations for node values 
-    public float hCost; //huristic cost 
-	public float gCost;
+    public int hCost; //huristic cost 
+	public int gCost;
 //	public float fcost;
 	//
 
-	public float fCost{
-	//getter method 
+	public int xGridLocation, yGridLocation, ZGridLocation;
+
+	public int fCost{
+	//getter method to set the fcost for a givin node 
 		get {
 			return hCost+ gCost;
 		}
 	}
 
-	public Node parentNode;
+	public Node parentNode; //used to retrace the path 
 
 	public enum  NodeType  { groundNode, airNode, porterNode }
-	NodeType mynode;
+	public NodeType mynode;
 
 	//to calculate the fcost 
+
+	//constuctor of a node class - sets it to walkable / world postions 
+    public Node(bool _walkable, Vector3 _worldPos)
+    {
+        walkable = _walkable;
+        worldPosition = _worldPos;
+    }
+
+    //overloaded constructor 
+
+	public Node(bool _walkable, Vector3 _worldPos, int _X, int _Y,  int _Z)
+    {
+        walkable = _walkable;
+        worldPosition = _worldPos;
+        xGridLocation  = _X;
+		yGridLocation  = _Y;
+		ZGridLocation = _Z;
+	
+
+
+    }
+
 
 
 
@@ -33,11 +57,6 @@ public class Node {
 		return  gCost + hCost;
 	}
 
-	//constuctor of a node class - sets it to walkable / world postions 
-    public Node(bool _walkable, Vector3 _worldPos)
-    {
-        walkable = _walkable;
-        worldPosition = _worldPos;
-    }
+
 	
 }

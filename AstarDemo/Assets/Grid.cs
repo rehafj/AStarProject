@@ -1,21 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 //please note, as a basis for our project we have used the tutorials mentioned and linked in class 
 // we have improved upon them to meet our needs. and to futher clerfy the task at hand. 
 public class Grid : MonoBehaviour {
-    public Vector3 gridWorldSize; 
+    public Vector3 gridWorldSize;  // x y and z values of our grid's size 
     public float nodeRadius;
     public LayerMask unwalkableMask;
-    Node[,,] grid; // three grid array
+   public  Node[,,] grid; // xyz array 
     float nodeDiameter;
 
-    int gridSizeX;
-    int gridSizeY;
+    public  int gridSizeX;
+    public  int gridSizeY;
     public int gridSizeZ; //this si what determins the layers we will move in ... 
     public int x, y, z;
 
     public Transform Bot;
+
+
+    public  List<Node> path;
 
     void Start()
     {
@@ -28,24 +32,29 @@ public class Grid : MonoBehaviour {
 
     void CreateGrid()
     {
-        grid = new Node[gridSizeX, gridSizeY, gridSizeZ];//increased space
+    	//initlize the grid 
+        grid = new Node[gridSizeX, gridSizeY, gridSizeZ];
+
         Vector3 worldBottomLeft = 
         transform.position - Vector3.right * gridWorldSize.x / 2 
         - Vector3.forward * gridWorldSize.y / 2
 			;//  - Vector3.up * gridWorldSize.z / 2;
 
-			//loop through all postions 
+			//loop through and create the grid  
         for (int x = 0; x < gridSizeX; x++) {
             for (int y= 0; y < gridSizeY;  y++) {
             	for ( z = 0 ; z< gridSizeZ; z++ ){
+
+            		//get the postion and the bool value and send it with the constuctor -- below 
+
 					Vector3 worldPzoint = worldBottomLeft + Vector3.right * (x * nodeDiameter + nodeRadius) +
 					 Vector3.forward * (y * nodeDiameter + nodeRadius) + Vector3.up * (z* nodeDiameter + nodeRadius); 
 					 //collision check with the world point( vector 2 pos) and the node radous - and defined by unwalkable mask
-
+					 	
                		 	 bool walkable = !(Physics.CheckSphere(worldPzoint, nodeRadius,unwalkableMask));
-               		 // added a node z to detect 
                		 //populate the grid with nodes 
-               		  grid[x, y, z] = new Node(walkable, worldPzoint);
+               		 // constructor set it with the postion and bool value 
+               		  grid[x, y, z] = new Node(walkable, worldPzoint, x, y, z);
 
             }}
         }
@@ -62,9 +71,16 @@ public class Grid : MonoBehaviour {
             {
             	//short hand for if - is the nide walkbale? yes white else red 
                 Gizmos.color = (node.walkable) ? Color.white : Color.red;
+
+                 if(path!=null) 
+                 	{
+                 		Debug.Log("path is not null");
+                	if(path.Contains(node))
+                		Gizmos.color = Color.black;
+                	}
                // if the node we are looping through is the bot/player change the color 
                if( botNode == node){
-              			Gizmos.color = Color.black;
+              			Gizmos.color = Color.green;
 
            	 		  }
                 Gizmos.DrawCube(node.worldPosition, Vector3.one * (nodeDiameter - .1f));
@@ -83,7 +99,7 @@ public class Grid : MonoBehaviour {
     //calcakte the precentage and make sure we are in the worl d
     float xprec = (worldPos.x +gridWorldSize.x/2) / gridWorldSize.x;
 	float yPrex = (worldPos.z +gridWorldSize.y/2) / gridWorldSize.y;
-	float ZPrex = (worldPos.y +gridWorldSize.y/2) / gridWorldSize.y;
+	float ZPrex = (worldPos.y +gridWorldSize.z/2) / gridWorldSize.z;//note to seld test z and y values. 
 	//clamp values between 0 an d1 
 		xprec = Mathf.Clamp01(xprec);
 		yPrex = Mathf.Clamp01(yPrex);
