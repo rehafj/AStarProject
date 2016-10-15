@@ -65,8 +65,7 @@ public class Grid : MonoBehaviour {
 
         Vector3 worldBottomLeft = 
         transform.position - Vector3.right * gridWorldSize.x / 2 
-        - Vector3.forward * gridWorldSize.y / 2
-			;//  - Vector3.up * gridWorldSize.z / 2;
+        - Vector3.forward * gridWorldSize.y / 2   - Vector3.up * gridWorldSize.z / 2;
 
 			//loop through and create the grid  
         for (int x = 0; x < gridSizeX; x++) {
