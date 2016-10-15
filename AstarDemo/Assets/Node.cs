@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Node {
     public bool walkable;
-    public Vector3 worldPosition; // (x,y,z )  postion of the object, reminder our y is our z and vise versa 
-
+    public Vector3 worldPosition;
+     // (x,y,z )  postion of the object, reminder our y is our z and vise versa 
     //costs used in a star calulations for node values 
     public int hCost; //huristic cost 
 	public int gCost;
@@ -27,15 +27,14 @@ public class Node {
 
 	//to calculate the fcost 
 
-	//constuctor of a node class - sets it to walkable / world postions 
+	// base constuctor of a node class - sets it to walkable / world postions 
     public Node(bool _walkable, Vector3 _worldPos)
     {
         walkable = _walkable;
         worldPosition = _worldPos;
     }
 
-    //overloaded constructor 
-
+    //overloaded constructor for xyz values 
 	public Node(bool _walkable, Vector3 _worldPos, int _X, int _Y,  int _Z)
     {
         walkable = _walkable;
@@ -48,12 +47,19 @@ public class Node {
 
     }
 
-
+	//overloaded constructor for xy values alone *2d plane)
+	public Node(bool _walkable, Vector2 _worldPos, int _X, int _Y)
+    {
+        walkable = _walkable;
+        worldPosition = new Vector3( _worldPos.x, 1 , worldPosition.y);
+        xGridLocation  = _X;
+		yGridLocation  = _Y;
+	
+    }
 
 
 
 	public float getFCost(){
-	 //basic cost - add method to ovverride it 
 		return  gCost + hCost;
 	}
 
