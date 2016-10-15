@@ -15,6 +15,7 @@ using System.Collections.Generic;
 /// </summary>
 public class Grid : MonoBehaviour {
 
+	public float speed;
 
     public Vector3 gridWorldSize;  // x y and z  as vector 3 reprisntaion 
     public float nodeRadius;
@@ -23,7 +24,7 @@ public class Grid : MonoBehaviour {
     public LayerMask unwalkableMask;
   	public  Node[,,] grid; // array of nodes for three varibles 
 
-
+	public int counter = 0;
 
     //reprisentaion of x, y and z postions 
     public int gridSizeX;
@@ -33,8 +34,13 @@ public class Grid : MonoBehaviour {
     //for debugging purposes 
     public Transform Bot;
 	public Transform GOAL;
+
+	public GameObject myMovingBot;
 	// a path that contains the list of nodes 
     public  List<Node> path;
+    [SerializeField]
+    public List<Vector3> botPath;
+    public Vector3 lastItemInPath;
 
     /// <summary>
     /// Awake this instance.
@@ -107,7 +113,9 @@ public class Grid : MonoBehaviour {
                  if(path!=null) 
                 	if(path.Contains(node)){
                 		Debug.Log("drwaing node in black");
-                		Gizmos.color = Color.black;}
+                		Gizmos.color = Color.black;
+                		Gizmos.DrawCube(node.worldPosition, Vector3.one *(nodeDiameter - .1f));
+                		}
 
                 																/// for debugging only- node that contains the bot is green 
 				if( botNode == node){
@@ -158,9 +166,29 @@ public class Grid : MonoBehaviour {
     /// <summary>
     /// for debugging and checking 
     /// </summary>
-	public void DrawPath(){
+	public void DrawPath(){	
 
+	foreach( Node n in path){
+		Debug.Log("Added path points " + n.worldPosition.ToString() +"to my vetor 3");
+		botPath.Add(n.worldPosition);
 
+		}		
+		StopCoroutine("MoveObjAlongPath");
+		StartCoroutine("MoveObjAlongPath");
+		
+		//if (myMovingBot.transform.position!= GOAL.position){
+
+	//
+		//	}
+		//		for (int i = 0 ; i < path.Count ; i++){
+//	
+//		botPath[i] = path[i].worldPosition;
+//				}
+
+	
+		//	myMovingBot.transform.position = Vector3.MoveTowards(myMovingBot.transform.position, GOAL.transform.position, speed);
+
+		/*
 		Debug.Log("drawing path");
 		if(path == null){
 
@@ -172,7 +200,44 @@ public class Grid : MonoBehaviour {
 			Debug.Log("the path has node:  "+ n.worldPosition.ToString() + " added to it ");
 		}
 			
+			*/
+	}
+
+	IEnumerator MoveObjAlongPath(){
+		Vector3 temp = botPath[0];
+
+	while(true){
+		temp = botPath[counter];
+		Debug.Log("bot path is "+ temp);
+			
+		myMovingBot.transform.position = temp;
+		counter++;
+			yield return 100;
+
+		}
+	/*	while( counter < botPath.Count) {
+
+			Debug.Log("isnide loop of moving object ");
+			counter++;
+			if (myMovingBot.transform.position ==  temp){
+				
+				temp = botPath[counter];
+				Debug.Log("temp is now  "+ temp);
+
+
+				}
+
+				transform.position = Vector3.MoveTowards(myMovingBot.transform.position, temp, speed);
+				yield return 1;
+				
+		
+			//myMovingBot.transform.position = Vector3.MoveTowards(myMovingBot.transform.position, GOAL.transform.position, speed);
+			//yield return new WaitForSeconds(.5f);
+	}*///end of wile loop 
 
 	}
 
 }
+
+
+
