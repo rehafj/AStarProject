@@ -6,6 +6,8 @@ public class PathFinding : MonoBehaviour {
 
 	Grid mygrid ; 
 	public Transform target, Findingbot;
+	public List<Node> openList;
+	public HashSet<Node> closedList;
 
 	 void  Awake(){
 
@@ -14,47 +16,47 @@ public class PathFinding : MonoBehaviour {
 	}
 
 	public void Update(){
-
-		AstarPathFinding(Findingbot.position, target.position);
+		if(Input.GetKeyDown(KeyCode.Space)){
+		AstarPathFinding(Findingbot.position, target.position);}
 	}
 
 	public void AstarPathFinding( Vector3 start_pos, Vector3 target_pos){
 
-		Debug.Log("entred startpath");
+		//Debug.Log("entred startpath");
 
 		Node startNode = mygrid.GetNodeLocation(start_pos);
 		Node goalNode = mygrid.GetNodeLocation(target_pos);
 
-		Debug.Log("start node "+ start_pos.ToString());
-		Debug.Log("goal node node "+ target_pos.ToString());
+		//Debug.Log("start node "+ start_pos.ToString());
+		//Debug.Log("goal node node "+ target_pos.ToString());
 		//Priority queues Open and Closed begin empty. 
 
 		//create a list of open nodes 
-		List<Node> openList = new List<Node>();
+		openList = new List<Node>();
 		//used hashset as it eliminates duplicates? check this further for better ds 
-		HashSet<Node> closedList = new HashSet<Node>();
+		 closedList = new HashSet<Node>();
 		//Put S into Open with priority f(s) = g(s) + h(s)
 		openList.Add(startNode);// add the start node to the list 
 
 		while( openList.Count> 0){
-			Debug.Log("entred openlist loop");
+			//Debug.Log("entred openlist loop");
 		//i.e. while our open list is not empty 
 		//assign the current node to the first element in the open list
 			Node temp = openList[0];
-			Debug.Log("assigned temp");
+			//Debug.Log("assigned temp");
 			//go through the open list
 			 
 			//cehck elemnt in open list's  f cost is less than the cirrent node's fcost 
 			// or it is equal to it AND it has less h cost 
 			for(int i = 1 ; i < openList.Count ;i++){
 				
-				Debug.Log("entred main for loop for open list ");
-				Debug.Log("main loop counter nd the ioen list has "+ openList.Count.ToString());
+				//Debug.Log("entred main for loop for open list ");
+				//Debug.Log("main loop counter nd the ioen list has "+ openList.Count.ToString());
 				if(openList[i].fCost < temp.fCost || openList[i].fCost == temp.fCost 	
 				&&  openList[i].hCost < temp.hCost){
 
 					temp = openList[i];
-					Debug.Log("assigned temp to current!!!");
+				//	Debug.Log("assigned temp to current!!!");
 
 					//if condition holds - assign current/temp node to new current node
 					//if it not the 'start' node itself assign our current node/ tmep to it 
@@ -69,14 +71,16 @@ public class PathFinding : MonoBehaviour {
 			openList.Remove(temp);
 			closedList.Add(temp);
 
-			Debug.Log("removed temp");
+			//Debug.Log("removed temp");
 
 			//check if the current node is = to the  target node
 			if(temp == goalNode){
 
 				//return the path!and exit the loop 
 				Debug.Log("Found goal node  ");
-				getPathBack(temp, goalNode);
+				Debug.Log("before steoong into get pach back sending starting nide as  ");
+				getPathBack(startNode, goalNode);
+				return;
 
 			}
 
@@ -92,9 +96,9 @@ public class PathFinding : MonoBehaviour {
 				//add it to open 
 				//loop back
 			foreach (Node nei in getNeighbuors(temp)){
-				Debug.Log("entred nehghnoot loop in main loop in astar  ");
+				//Debug.Log("entred nehghnoot loop in main loop in astar  ");
 				if(! nei.walkable || closedList.Contains(nei)){
-					Debug.Log("neigbot is not walkable or in closed list ");
+					//Debug.Log("neigbot is not walkable or in closed list ");
 					continue;
 				}
 				//cost from cuttent - neighbor 
@@ -105,9 +109,9 @@ public class PathFinding : MonoBehaviour {
 					nei.gCost = newMoveCost;
 					nei.hCost = getDistance(nei, goalNode);
 					nei.parentNode = temp;
-					Debug.Log("assigned parent node to temp ");
+					//Debug.Log("assigned parent node to temp ");
 					if(! openList.Contains(nei)){
-						Debug.Log("adding neighboor to open list  ");
+						//Debug.Log("adding neighboor to open list  ");
 						openList.Add(nei); 
 
 						
@@ -125,22 +129,40 @@ public class PathFinding : MonoBehaviour {
 
 	public void getPathBack(Node startingNode, Node EndingNode){
 
-		Debug.Log("entred get path back ");
-		List<Node> path = new List<Node>();
-		Node ttemp = EndingNode;
+		//Debug.Log("entred get path back ");
+		List<Node> _path = new List<Node>();
+		Node temp = EndingNode;
+		Debug.Log("Temp is "+ temp.worldPosition.ToString());
+		Debug.Log("endign node is "+ EndingNode.worldPosition.ToString());
+		Debug.Log("starting node is   "+ startingNode.worldPosition.ToString());
 
-		while(ttemp != startingNode){
 
-			path.Add(ttemp);
-			ttemp = ttemp.parentNode;
-		}
+		while(temp != startingNode){
+			Debug.Log("adding nodes as twmo != starting node ");
+
+			_path.Add(temp);
+			Debug.Log("adding node   "+ temp.parentNode.worldPosition.ToString() + " added to the list ");
+			temp = temp.parentNode;
+
+			}
 
 		//apth is revered so need o reverse it 
-		Debug.Log("Reversing path... ");
-		path.Reverse();
+		//Debug.Log("Reversing path... ");
+		//Debug.Log("the path is "+ path);
+		_path.Reverse();
 
 		//need gizmos to visulize it 
-		mygrid.path = path;
+		mygrid.path = _path;
+		if(mygrid.path!=null){
+
+		Debug.Log("PATH HAS HITEMS ");
+		foreach( Node n in _path){
+
+				Debug.Log("the path has node:  "+ n.worldPosition.ToString() + " added to it ");
+		}
+		Debug.Log("the path has "+ _path.Count.ToString() + "in the list");
+		}
+		mygrid.DrawPath();
 
 
 	}
@@ -162,6 +184,9 @@ public class PathFinding : MonoBehaviour {
 					if( x== 0 && y == 0 && z == 0)
 						continue; 
 
+					//if( x== 0 && y == 0 )
+						//continue; 
+
 					Debug.Log("managed to continue  ");
 					int checkX = node.xGridLocation + x;
 					int checky = node.yGridLocation + y;
@@ -175,42 +200,42 @@ public class PathFinding : MonoBehaviour {
 							//add node to neighboor 
 							Debug.Log("managed to add postions to neighboors  ");
 							neighboors.Add(mygrid.grid[checkX,checky,checkz]);
+						//neighboors.Add(mygrid.grid[checkX,checky]);
 
 					}//end 
-			}
+			}//end of z inner loop 
 		}
 	}		//reutn list of neghboors 
-			Debug.Log("return neighboors");
+			//Debug.Log("return neighboors");
 			return neighboors;
 	}//end of neghboor method 
 
 
 	int getDistance( Node a, Node b){
 
-		Debug.Log("entred get distance");
 
-		int xDistance = Mathf.Abs(a.xGridLocation = b.xGridLocation);
-		int yDistance = Mathf.Abs(a.yGridLocation = b.yGridLocation);
-		int zDistance = Mathf.Abs(a.ZGridLocation = b.ZGridLocation);
+		//Debug.Log("entred get distance");
 
+		int xDistance = Mathf.Abs(a.xGridLocation - b.xGridLocation);
+		int yDistance = Mathf.Abs(a.yGridLocation - b.yGridLocation);
+		int zDistance = Mathf.Abs(a.ZGridLocation - b.ZGridLocation);
 
+		/*
+		if(xDistance > yDistance)
+			return 12 * yDistance + 10 * ( xDistance - yDistance);
+		return 14 * xDistance + 10 * (yDistance - xDistance);
+		*/
 		if(xDistance > zDistance) {
-			Debug.Log("returned distance calucaltiond from node a to b x > z ");
+		//	Debug.Log("returned distance calucaltiond from node a to b x > z ");
 			return 14 * zDistance + 10 * ( xDistance - zDistance) + 10 * yDistance;
 			//Debug.Log("returned distance calucaltiond from node a to b  ");
 		}
-		Debug.Log("returned distance calucaltiond from node a to b  ");
+		//Debug.Log("returned distance calucaltiond from node a to b  ");
 		return 14 * xDistance + 10 * ( zDistance - xDistance) + 10 * yDistance;
 		//Debug.Log("returned distance calucaltiond from node a to b  ");
 	}
-
+	///end of 3d option 
 
 
 	}//end of classs 
 
-
-
-
-//disclaimer 
-//please note, as a basis for our project we have used the tutorials mentioned and linked in class 
-// we have improved upon them to meet our needs.  to futher clerfy the task at hand. 

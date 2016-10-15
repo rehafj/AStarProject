@@ -2,38 +2,60 @@
 using System.Collections;
 using System.Collections.Generic;
 
-//please note, as a basis for our project we have used the tutorials mentioned and linked in class 
-// we have improved upon them to meet our needs. and to futher clerfy the task at hand. 
+
+///***********************************************    Disclaimer **********************************///
+//***please note, as a basis for our project we have used the tutorials mentioned and linked in class *//
+//*** we have improved upon them to meet our needs. and to futher clerfy the task at hand. ***//
+//***https://www.youtube.com/watch?v=T0Qv4-KkAUo&list=PLFt_AvWsXl0cq5Umv3pMC9SPnKjfp9eGW&index=6***//
+
+
+/// <summary>
+/// Grid Class. 
+/// this class handles the basic layout for the grid and node reprisntaion on the grid /// 
+/// </summary>
 public class Grid : MonoBehaviour {
-    public Vector3 gridWorldSize;  // x y and z values of our grid's size 
+
+
+    public Vector3 gridWorldSize;  // x y and z  as vector 3 reprisntaion 
     public float nodeRadius;
+	float nodeDiameter;
+
     public LayerMask unwalkableMask;
-   public  Node[,,] grid; // xyz array 
-    float nodeDiameter;
+  	public  Node[,,] grid; // array of nodes for three varibles 
 
-    public  int gridSizeX;
-    public  int gridSizeY;
-    public int gridSizeZ; //this si what determins the layers we will move in ... 
-    public int x, y, z;
 
+
+    //reprisentaion of x, y and z postions 
+    public int gridSizeX;
+    public int gridSizeY;
+    public int gridSizeZ; 
+
+    //for debugging purposes 
     public Transform Bot;
-
-
+	public Transform GOAL;
+	// a path that contains the list of nodes 
     public  List<Node> path;
 
-    void Start()
+    /// <summary>
+    /// Awake this instance.
+    ///set up and create the grid initlizations
+    /// </summary>
+    void Awake()
     {
         nodeDiameter = nodeRadius * 2;
         gridSizeX = Mathf.RoundToInt(gridWorldSize.x / nodeDiameter);
-        gridSizeY = Mathf.RoundToInt(gridWorldSize.y / nodeDiameter); //creates half the grid / so 10 / 2 = 5 box on x and 5 on y 
-		gridSizeZ = Mathf.RoundToInt(gridWorldSize.z / nodeDiameter);//added z pos 
+        gridSizeY = Mathf.RoundToInt(gridWorldSize.y / nodeDiameter); 
+		gridSizeZ = Mathf.RoundToInt(gridWorldSize.z / nodeDiameter); 
         CreateGrid();
     }
 
+    /// <summary>
+    /// Creates the grid.
+    /// </summary>
     void CreateGrid()
     {
     	//initlize the grid 
-        grid = new Node[gridSizeX, gridSizeY, gridSizeZ];
+		grid = new Node[gridSizeX, gridSizeY, gridSizeZ];
 
         Vector3 worldBottomLeft = 
         transform.position - Vector3.right * gridWorldSize.x / 2 
@@ -43,75 +65,114 @@ public class Grid : MonoBehaviour {
 			//loop through and create the grid  
         for (int x = 0; x < gridSizeX; x++) {
             for (int y= 0; y < gridSizeY;  y++) {
-            	for ( z = 0 ; z< gridSizeZ; z++ ){
+            	for (int z = 0 ; z< gridSizeZ; z++ ){
 
             		//get the postion and the bool value and send it with the constuctor -- below 
 
 					Vector3 worldPzoint = worldBottomLeft + Vector3.right * (x * nodeDiameter + nodeRadius) +
-					 Vector3.forward * (y * nodeDiameter + nodeRadius) + Vector3.up * (z* nodeDiameter + nodeRadius); 
-					 //collision check with the world point( vector 2 pos) and the node radous - and defined by unwalkable mask
+					// Vector3.forward * (y * nodeDiameter + nodeRadius);
+					Vector3.forward * (y * nodeDiameter + nodeRadius) + Vector3.up * (z* nodeDiameter + nodeRadius); 
+
+					 //collision check with the world point( vector 3 pos) and the node radiuos - and defined by unwalkable mask
 					 	
                		 	 bool walkable = !(Physics.CheckSphere(worldPzoint, nodeRadius,unwalkableMask));
-               		 //populate the grid with nodes 
-               		 // constructor set it with the postion and bool value 
-               		  grid[x, y, z] = new Node(walkable, worldPzoint, x, y, z);
 
-            }}
+               		 //populate the grid with nodes 
+               		 // constructor set it with the postion and bool value and reprresintaion  
+					grid[x, y, z] = new Node(walkable, worldPzoint, x, y, z);
+
+
+            		}
+            }
         }
     }
      
     void OnDrawGizmos()
     {
         Gizmos.DrawWireCube(transform.position, new Vector3(gridWorldSize.x, gridWorldSize.z, gridWorldSize.y));
-        // draw cubes for refrence 
+
+        // draw cubes for refrence  and debugging 
+
         if (grid != null){
-        	//draw the player/ bot 
+        	//draw the player/ bot  for debugging purpises and gets the location 
 			Node botNode = GetNodeLocation( Bot.position);
+			Node goalnode = GetNodeLocation(GOAL.position);
+																				// loop through the nodes in the grid 
             foreach (Node node in grid)
             {
-            	//short hand for if - is the nide walkbale? yes white else red 
+            	//short hand  if - is the nide walkbale? yes white else red 
                 Gizmos.color = (node.walkable) ? Color.white : Color.red;
 
+                	//if there is a path and it is not null 
                  if(path!=null) 
-                 	{
-                 		Debug.Log("path is not null");
-                	if(path.Contains(node))
-                		Gizmos.color = Color.black;
-                	}
-               // if the node we are looping through is the bot/player change the color 
-               if( botNode == node){
+                	if(path.Contains(node)){
+                		Debug.Log("drwaing node in black");
+                		Gizmos.color = Color.black;}
+
+                																/// for debugging only- node that contains the bot is green 
+				if( botNode == node){
               			Gizmos.color = Color.green;
 
            	 		  }
+           	 	if( goalnode == node){											// node that contains the goal is yellow 
+					Gizmos.color = Color.yellow;
+
+           	 	}
+
                 Gizmos.DrawCube(node.worldPosition, Vector3.one * (nodeDiameter - .1f));
+                }
             }
         }
-    }
+    
 
-    //16 min.
+        
+
+
     //retuns te postion of the node in the x,z,y axsis plane //i.e.  in the world 
+    /// <summary>
+    /// Gets the node location.
+    /// </summary>
+    /// <returns>a  node with  xyz values .</returns>
+    /// <param name="worldPos">World position.</param>
     public Node GetNodeLocation(Vector3 worldPos)
-
-    //need to get thw postion of the player/ bot 
-    //the formual is used from the tutorial series as refrenced by prof.Maccoy 
-    //modifed upon .. need to check values and test 
     {	
-    //calcakte the precentage and make sure we are in the worl d
-    float xprec = (worldPos.x +gridWorldSize.x/2) / gridWorldSize.x;
-	float yPrex = (worldPos.z +gridWorldSize.y/2) / gridWorldSize.y;
-	float ZPrex = (worldPos.y +gridWorldSize.z/2) / gridWorldSize.z;//note to seld test z and y values. 
-	//clamp values between 0 an d1 
-		xprec = Mathf.Clamp01(xprec);
-		yPrex = Mathf.Clamp01(yPrex);
-		ZPrex = Mathf.Clamp01(ZPrex);
-	// 
-	int x = Mathf.RoundToInt((gridSizeX-1) * xprec);
-	int y = Mathf.RoundToInt((gridSizeY-1) * yPrex);
-	int z = Mathf.RoundToInt((gridSizeZ-1) * ZPrex);
-	//return the postion 
-	return grid[x,y,z];
+	    //calcakte the precentage and make sure we are in the world
+	    float xprec = (worldPos.x +gridWorldSize.x/2) / gridWorldSize.x;
+		float yPrex = (worldPos.z +gridWorldSize.y/2) / gridWorldSize.y;
+		float ZPrex = (worldPos.y +gridWorldSize.z/2) / gridWorldSize.z;//note to seld test z and y values. 
 
-	//yaaaas finnaly fgot it to relize both nodes 
+		//clamp values between 0 an 1 
+			xprec = Mathf.Clamp01(xprec);
+			yPrex = Mathf.Clamp01(yPrex);
+			ZPrex = Mathf.Clamp01(ZPrex);
+		
+		int x = Mathf.RoundToInt((gridSizeX-1) * xprec);
+		int y = Mathf.RoundToInt((gridSizeY-1) * yPrex);
+		int z = Mathf.RoundToInt((gridSizeZ-1) * ZPrex);
+
+		//return node in 3d arr of x y and z values
+		return grid[x,y,z];
+
     }
+
+    /// <summary>
+    /// for debugging and checking 
+    /// </summary>
+	public void DrawPath(){
+
+
+		Debug.Log("drawing path");
+		if(path == null){
+
+			Debug.Log("error path has 0 items");
+		}
+		else
+		foreach( Node n in path){
+
+			Debug.Log("the path has node:  "+ n.worldPosition.ToString() + " added to it ");
+		}
+			
+
+	}
 
 }

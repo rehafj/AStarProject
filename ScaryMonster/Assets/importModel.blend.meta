@@ -1,0 +1,3156 @@
+fileFormatVersion: 2
+guid: 1be5e97e0c90b42b3b7f27f93a1d82f9
+timeCreated: 1476412451
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_fore_L
+    100002: arm_fore_R
+    100004: azuppereyelid_L
+    100006: creature
+    100008: creature_armature
+    100010: eyecontrol_Head_Right
+    100012: gaze_right
+    100014: gazemainhead
+    100016: hammer
+    100018: Hand_L
+    100020: Hand_R
+    100022: head2_eye_L
+    100024: head2_eye_R
+    100026: headleft
+    100028: headleft_eye_L
+    100030: headleft_eye_Rz
+    100032: Headright
+    100034: Headright_001
+    100036: //RootNode
+    100038: index_L
+    100040: index_L_001
+    100042: index_L_002
+    100044: index_R
+    100046: index_R_001
+    100048: index_R_002
+    100050: jaw_headtwomovemnets
+    100052: jawcontrol_main
+    100054: jawmain
+    100056: jeawbone_headdleft
+    100058: lip1_L
+    100060: lip1_L_001
+    100062: lip1_R
+    100064: lip1_R_001
+    100066: lowereye_L
+    100068: lowereye_R
+    100070: lowerlipmain
+    100072: main_eye_L
+    100074: main_eye_R
+    100076: main_head
+    100078: main_head_ear_flap_L
+    100080: main_head_ear_flap_R
+    100082: main_neck1
+    100084: main_neck2
+    100086: mainhead_ear_L
+    100088: mainhead_ear_R
+    100090: Middle_L
+    100092: Middle_L_001
+    100094: Middle_L_002
+    100096: Middle_R
+    100098: Middle_R_001
+    100100: Middle_R_002
+    100102: MOUTH_L
+    100104: MOUTH_R
+    100106: neackleft
+    100108: neackleft_001
+    100110: neackRight
+    100112: neackRight_001
+    100114: pinky_L
+    100116: pinky_L_001
+    100118: pinky_L_002
+    100120: pinky_R
+    100122: pinky_R_001
+    100124: pinky_R_002
+    100126: Plane
+    100128: Root
+    100130: spine2
+    100132: spine3
+    100134: spineone
+    100136: tail
+    100138: tail2
+    100140: tail3middle
+    100142: tail4ending
+    100144: tail4ending_001
+    100146: tail4ending_002
+    100148: tail4ending_003
+    100150: tailtip
+    100152: tailtip_001
+    100154: tailtip_002
+    100156: tailtip_003
+    100158: ToHold_L
+    100160: ToHold_R
+    100162: Tumb_L
+    100164: Tumb_L1
+    100166: Tumb_R
+    100168: Tumb_R1
+    100170: upperarm_L
+    100172: upperarm_R
+    100174: uppereyelid_R
+    100176: upperlipmain
+    400000: arm_fore_L
+    400002: arm_fore_R
+    400004: azuppereyelid_L
+    400006: creature
+    400008: creature_armature
+    400010: eyecontrol_Head_Right
+    400012: gaze_right
+    400014: gazemainhead
+    400016: hammer
+    400018: Hand_L
+    400020: Hand_R
+    400022: head2_eye_L
+    400024: head2_eye_R
+    400026: headleft
+    400028: headleft_eye_L
+    400030: headleft_eye_Rz
+    400032: Headright
+    400034: Headright_001
+    400036: //RootNode
+    400038: index_L
+    400040: index_L_001
+    400042: index_L_002
+    400044: index_R
+    400046: index_R_001
+    400048: index_R_002
+    400050: jaw_headtwomovemnets
+    400052: jawcontrol_main
+    400054: jawmain
+    400056: jeawbone_headdleft
+    400058: lip1_L
+    400060: lip1_L_001
+    400062: lip1_R
+    400064: lip1_R_001
+    400066: lowereye_L
+    400068: lowereye_R
+    400070: lowerlipmain
+    400072: main_eye_L
+    400074: main_eye_R
+    400076: main_head
+    400078: main_head_ear_flap_L
+    400080: main_head_ear_flap_R
+    400082: main_neck1
+    400084: main_neck2
+    400086: mainhead_ear_L
+    400088: mainhead_ear_R
+    400090: Middle_L
+    400092: Middle_L_001
+    400094: Middle_L_002
+    400096: Middle_R
+    400098: Middle_R_001
+    400100: Middle_R_002
+    400102: MOUTH_L
+    400104: MOUTH_R
+    400106: neackleft
+    400108: neackleft_001
+    400110: neackRight
+    400112: neackRight_001
+    400114: pinky_L
+    400116: pinky_L_001
+    400118: pinky_L_002
+    400120: pinky_R
+    400122: pinky_R_001
+    400124: pinky_R_002
+    400126: Plane
+    400128: Root
+    400130: spine2
+    400132: spine3
+    400134: spineone
+    400136: tail
+    400138: tail2
+    400140: tail3middle
+    400142: tail4ending
+    400144: tail4ending_001
+    400146: tail4ending_002
+    400148: tail4ending_003
+    400150: tailtip
+    400152: tailtip_001
+    400154: tailtip_002
+    400156: tailtip_003
+    400158: ToHold_L
+    400160: ToHold_R
+    400162: Tumb_L
+    400164: Tumb_L1
+    400166: Tumb_R
+    400168: Tumb_R1
+    400170: upperarm_L
+    400172: upperarm_R
+    400174: uppereyelid_R
+    400176: upperlipmain
+    2300000: hammer
+    2300002: Plane
+    3300000: hammer
+    3300002: Plane
+    4300000: Plane
+    4300002: hammer
+    4300004: creature
+    7400000: Nothing
+    7400002: 1_Final_Run_FranticSearch
+    7400004: 2_Final_WalkCreepy
+    7400006: 3_Final_IDLE_AfterLongTime
+    7400008: Idel
+    7400010: 5_Finalextra-3HeadsNotBetterthanONE
+    7400012: anOld_IntimadatingLook
+    7400014: new_attacking
+    7400016: oldtest_001
+    7400018: oldtest_002
+    7400020: testingJump
+    7400022: testSWIM
+    7400024: x_002
+    7400026: x_003
+    9500000: //RootNode
+    13700000: creature
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Nothing
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 1_Final_Run_FranticSearch
+      takeName: 1_Final_Run_FranticSearch
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 2_Final_WalkCreepy
+      takeName: 2_Final_WalkCreepy
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 3_Final_IDLE_AfterLongTime
+      takeName: 3_Final_IDLE_AfterLongTime
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idel
+      takeName: 4_Final_Idle
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 5_Finalextra-3HeadsNotBetterthanONE
+      takeName: 5_Finalextra-3HeadsNotBetterthanONE
+      firstFrame: -1
+      lastFrame: 123
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: anOld_IntimadatingLook
+      takeName: anOld_IntimadatingLook
+      firstFrame: -1
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: new_attacking
+      takeName: new_attacking
+      firstFrame: -6
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: oldtest_001
+      takeName: oldtest_001
+      firstFrame: -1
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: oldtest_002
+      takeName: oldtest_002
+      firstFrame: 48
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: testingJump
+      takeName: testingJump
+      firstFrame: 2
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: testSWIM
+      takeName: testSWIM
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: x_002
+      takeName: x_002
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: x_003
+      takeName: x_003
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: creature
+        weight: 1
+      - path: creature_armature
+        weight: 1
+      - path: creature_armature/lip1_R
+        weight: 1
+      - path: creature_armature/lip1_R_001
+        weight: 1
+      - path: creature_armature/Root
+        weight: 1
+      - path: creature_armature/Root/spineone
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/azuppereyelid_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/gazemainhead
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawcontrol_main
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/jawmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lip1_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowereye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/lowerlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/main_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_L/main_head_ear_flap_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/mainhead_ear_R/main_head_ear_flap_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/MOUTH_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/uppereyelid_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/main_neck1/main_neck2/main_head/upperlipmain
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/eyecontrol_Head_Right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/headleft_eye_Rz
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackleft/neackleft_001/headleft/jeawbone_headdleft
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/gaze_right
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/head2_eye_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/Headright_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/neackRight/neackRight_001/Headright/jaw_headtwomovemnets
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/index_L/index_L_001/index_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Middle_L/Middle_L_001/Middle_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/pinky_L/pinky_L_001/pinky_L_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/ToHold_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_L/arm_fore_L/Hand_L/Tumb_L/Tumb_L1
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/index_R/index_R_001/index_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Middle_R/Middle_R_001/Middle_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/pinky_R/pinky_R_001/pinky_R_002
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/ToHold_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R
+        weight: 1
+      - path: creature_armature/Root/spineone/spine2/spine3/upperarm_R/arm_fore_R/Hand_R/Tumb_R/Tumb_R1
+        weight: 1
+      - path: creature_armature/Root/tail
+        weight: 1
+      - path: creature_armature/Root/tail/tail2
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002
+        weight: 1
+      - path: creature_armature/Root/tail/tail2/tail3middle/tail4ending/tail4ending_001/tail4ending_002/tail4ending_003/tailtip/tailtip_001/tailtip_002/tailtip_003
+        weight: 1
+      - path: hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
