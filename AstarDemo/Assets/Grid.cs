@@ -186,7 +186,7 @@ public class Grid : MonoBehaviour {
 
 	
 
-		/*
+		/* debbugin g
 		Debug.Log("drawing path");
 		if(path == null){
 
