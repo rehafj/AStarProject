@@ -209,7 +209,10 @@ public class Grid : MonoBehaviour {
 		Debug.Log("bot path is "+ temp);
 			
 		myMovingBot.transform.position = temp;
-			yield return 5;
+			//yield return 5;t of range issue 
+			//to fix the bug of index ou
+			if(counter == botPath.Count -1)
+				break;
 		counter++;
 			yield return 5;
 
