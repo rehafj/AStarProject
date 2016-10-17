@@ -185,7 +185,6 @@ public class Grid : MonoBehaviour {
 //				}
 
 	
-		//	myMovingBot.transform.position = Vector3.MoveTowards(myMovingBot.transform.position, GOAL.transform.position, speed);
 
 		/*
 		Debug.Log("drawing path");
@@ -210,8 +209,12 @@ public class Grid : MonoBehaviour {
 		Debug.Log("bot path is "+ temp);
 			
 		myMovingBot.transform.position = temp;
+			//yield return 5;t of range issue 
+			//to fix the bug of index ou
+			if(counter == botPath.Count -1)
+				break;
 		counter++;
-			yield return 100;
+			yield return 5;
 
 		}
 	/*	while( counter < botPath.Count) {
