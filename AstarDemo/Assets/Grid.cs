@@ -15,6 +15,9 @@ using System.Collections.Generic;
 /// </summary>
 public class Grid : MonoBehaviour {
 
+
+	public Transform[] teleporters = new Transform[2];
+
 	public float speed;
 
     public Vector3 gridWorldSize;  // x y and z  as vector 3 reprisntaion 
