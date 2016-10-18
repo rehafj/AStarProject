@@ -111,7 +111,7 @@ public class PathFinding : MonoBehaviour {
 
 					nei.gCost = newMoveCost;
 					//old h cost calculaitons 
-					//**********nei.hCost = getDistance(nei, goalNode);
+					//**********old working one  nei.hCost = getDistance(nei, goalNode);
 					//caluclate new h cost based on nei and goal node 
 			//		nei.hCost = calculateNewHcost( nei, goalNode ,  tran1,  tran2);
 
