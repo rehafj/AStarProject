@@ -103,7 +103,8 @@ public class PathFinding : MonoBehaviour {
 				}
 				//cost from cuttent - neighbor 
 				int newMoveCost = temp.gCost + getDistance(temp, nei);
-
+					Debug.Log("temp initila move cost has value of " + temp.gCost.ToString() + " abd the new movment cost is " + newMoveCost.ToString());
+					Debug.Log("intiial naighboors cisr prioe ro new move is "+ nei.fCost);
 				if( newMoveCost < nei.gCost || !openList.Contains(nei)){
 
 					nei.gCost = newMoveCost;
@@ -215,10 +216,22 @@ public class PathFinding : MonoBehaviour {
 
 
 		//Debug.Log("entred get distance");
+		//get the gcost  distances 
 
-		int xDistance = Mathf.Abs(a.xGridLocation - b.xGridLocation);
-		int yDistance = Mathf.Abs(a.yGridLocation - b.yGridLocation);
-		int zDistance = Mathf.Abs(a.ZGridLocation - b.ZGridLocation);
+		int xDistance = (Mathf.Abs(a.xGridLocation - b.xGridLocation))*2; //(weight of horizontal movement is standard)
+		int temp = Mathf.Abs(a.yGridLocation - b.yGridLocation);
+		int yDistance ;
+
+
+		//gravity modifications 
+		if (b.yGridLocation > a.yGridLocation){
+			 yDistance = temp * 4; //Weight of moving up (most expensive)
+		} 
+		else {
+			 yDistance = temp ; //Weight of moving down (cheapest)
+		}
+
+		int zDistance = (Mathf.Abs(a.ZGridLocation - b.ZGridLocation))*2;
 
 		/*
 		if(xDistance > yDistance)
@@ -235,6 +248,9 @@ public class PathFinding : MonoBehaviour {
 		//Debug.Log("returned distance calucaltiond from node a to b  ");
 	}
 	///end of 3d option 
+
+
+	//overloaded method for distance if node is teleported 
 
 
 	}//end of classs 
