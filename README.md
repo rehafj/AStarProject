@@ -1,5 +1,5 @@
 # AStarProject
-![alt tag](https://upload.wikimedia.org/wikipedia/commons/9/98/AstarExampleEn.gif)
+![alt tag](AStarProject/Images/optionPlanet.gif)
 
 ##Overview
 For our first project, we propose to implement modified pathfinding using A* in a 3 dimensional space.
