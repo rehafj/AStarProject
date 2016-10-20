@@ -14,9 +14,9 @@ using System.Collections.Generic;
 /// this class handles the basic layout for the grid and node reprisntaion on the grid /// 
 /// </summary>
 public class Grid : MonoBehaviour {
+	///***********************************************  class members  **********************************///
 
 
-	public Transform[] teleporters = new Transform[2];
 
 	public float speed;
 
@@ -34,16 +34,22 @@ public class Grid : MonoBehaviour {
     public int gridSizeY;
     public int gridSizeZ; 
 
-    //for debugging purposes 
     public Transform Bot;
 	public Transform GOAL;
 
 	public GameObject myMovingBot;
-	// a path that contains the list of nodes 
+
+	// a path that contains  nodes for the path 
     public  List<Node> path;
     [SerializeField]
-    public List<Vector3> botPath;
+	public List<Vector3> botPath;	    //storingt the path postions as vector 3 so we can acyllut move the bot
     public Vector3 lastItemInPath;
+
+
+
+	///***********************************************  class methods  **********************************///
+
+
 
     /// <summary>
     /// Awake this instance.
@@ -177,31 +183,7 @@ public class Grid : MonoBehaviour {
 		}		
 		StopCoroutine("MoveObjAlongPath");
 		StartCoroutine("MoveObjAlongPath");
-		
-		//if (myMovingBot.transform.position!= GOAL.position){
 
-	//
-		//	}
-		//		for (int i = 0 ; i < path.Count ; i++){
-//	
-//		botPath[i] = path[i].worldPosition;
-//				}
-
-	
-
-		/* debbugin g
-		Debug.Log("drawing path");
-		if(path == null){
-
-			Debug.Log("error path has 0 items");
-		}
-		else
-		foreach( Node n in path){
-
-			Debug.Log("the path has node:  "+ n.worldPosition.ToString() + " added to it ");
-		}
-			
-			*/
 	}
 
 	IEnumerator MoveObjAlongPath(){
