@@ -57,6 +57,7 @@ public class Node {
 	
     }
 
+  
 
 
 	public float getFCost(){

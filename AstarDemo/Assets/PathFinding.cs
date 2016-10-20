@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class PathFinding : MonoBehaviour {
 
 	Grid mygrid ; 
-	public Transform target, Findingbot;
+	public Transform target, Findingbot, t1, t2;
 	public List<Node> openList;
 	public HashSet<Node> closedList;
 
@@ -19,13 +19,15 @@ public class PathFinding : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Space)){
 		AstarPathFinding(Findingbot.position, target.position);}
 	}
-
+	//, Vector3   tranOne, Vector3 transTwo t1.position, t2.position 
 	public void AstarPathFinding( Vector3 start_pos, Vector3 target_pos){
 
 		//Debug.Log("entred startpath");
 
 		Node startNode = mygrid.GetNodeLocation(start_pos);
 		Node goalNode = mygrid.GetNodeLocation(target_pos);
+		//Node tran1 = mygrid.GetNodeLocation(;
+		//kNode tran2;
 
 		//Debug.Log("start node "+ start_pos.ToString());
 		//Debug.Log("goal node node "+ target_pos.ToString());
@@ -103,11 +105,18 @@ public class PathFinding : MonoBehaviour {
 				}
 				//cost from cuttent - neighbor 
 				int newMoveCost = temp.gCost + getDistance(temp, nei);
-
+					Debug.Log("temp initila move cost has value of " + temp.gCost.ToString() + " abd the new movment cost is " + newMoveCost.ToString());
+					Debug.Log("intiial naighboors cisr prioe ro new move is "+ nei.fCost);
 				if( newMoveCost < nei.gCost || !openList.Contains(nei)){
 
 					nei.gCost = newMoveCost;
-					nei.hCost = getDistance(nei, goalNode);
+					//old h cost calculaitons 
+					//**********old working one  nei.hCost = getDistance(nei, goalNode);
+					//caluclate new h cost based on nei and goal node 
+			//		nei.hCost = calculateNewHcost( nei, goalNode ,  tran1,  tran2);
+
+
+					//define h
 					nei.parentNode = temp;
 					//Debug.Log("assigned parent node to temp ");
 					if(! openList.Contains(nei)){
@@ -211,14 +220,26 @@ public class PathFinding : MonoBehaviour {
 	}//end of neghboor method 
 
 
-	int getDistance( Node a, Node b){
+	public int getDistance( Node a, Node b){
 
 
 		//Debug.Log("entred get distance");
+		//get the gcost  distances 
 
-		int xDistance = Mathf.Abs(a.xGridLocation - b.xGridLocation);
-		int yDistance = Mathf.Abs(a.yGridLocation - b.yGridLocation);
-		int zDistance = Mathf.Abs(a.ZGridLocation - b.ZGridLocation);
+		int xDistance = (Mathf.Abs(a.xGridLocation - b.xGridLocation))*2; //(weight of horizontal movement is standard)
+		int temp = Mathf.Abs(a.yGridLocation - b.yGridLocation);
+		int yDistance ;
+
+
+		//gravity modifications 
+		if (b.yGridLocation > a.yGridLocation){
+			 yDistance = temp * 4; //Weight of moving up (most expensive)
+		} 
+		else {
+			 yDistance = temp ; //Weight of moving down (cheapest)
+		}
+
+		int zDistance = (Mathf.Abs(a.ZGridLocation - b.ZGridLocation))*2;
 
 		/*
 		if(xDistance > yDistance)
@@ -235,6 +256,64 @@ public class PathFinding : MonoBehaviour {
 		//Debug.Log("returned distance calucaltiond from node a to b  ");
 	}
 	///end of 3d option 
+
+
+	public int  calculateNewHcost(Node current, Node goal , Node _tran1, Node _tran2){
+
+		int  tranOneDistance, transTwoDistance;
+
+		Node closenode;
+		Node farnode ;
+
+		int y1 = Mathf.Abs(current.yGridLocation - _tran1.yGridLocation);
+		int x1 = Mathf.Abs(current.xGridLocation - _tran1.xGridLocation);
+		int z1= Mathf.Abs(current.ZGridLocation - _tran1.ZGridLocation);
+
+		tranOneDistance= x1+y1+z1;
+		int y2 = Mathf.Abs(current.yGridLocation - _tran2.ZGridLocation);
+		int x2 = Mathf.Abs(current.xGridLocation - _tran2.ZGridLocation);
+		int z2= Mathf.Abs(current.ZGridLocation - _tran2.ZGridLocation);
+
+		tranOneDistance= x1+y1+z1;
+		transTwoDistance= x2+y2+z2;
+
+		if (tranOneDistance < transTwoDistance) {
+			closenode=_tran1;
+			farnode=_tran2;
+			}
+		else {
+			closenode=_tran2;
+			farnode=_tran1;}
+
+		int goald, tran1d, tran2d;
+		int yc = Mathf.Abs(current.yGridLocation - goal.ZGridLocation);
+		int xc = Mathf.Abs(current.xGridLocation - goal.ZGridLocation);
+		int zc= Mathf.Abs(current.ZGridLocation - goal.ZGridLocation);
+
+		goald= yc+xc+zc;
+
+		int yt1 = Mathf.Abs(current.yGridLocation - closenode.ZGridLocation);
+		int xt1 = Mathf.Abs(current.xGridLocation - closenode.ZGridLocation);
+		int zt1= Mathf.Abs(current.ZGridLocation - closenode.ZGridLocation);
+
+		tran1d= yt1+xt1+zt1;
+
+		int yt2 = Mathf.Abs(current.yGridLocation - farnode.ZGridLocation);
+		int xt2 = Mathf.Abs(current.xGridLocation - farnode.ZGridLocation);
+		int zt2= Mathf.Abs(current.ZGridLocation - farnode.ZGridLocation);
+
+		tran2d= yt2+xt2+zt2;
+
+		if (goald <(tran1d+tran2d) ){
+			return goald;
+			}
+		else{
+				return tran1d+tran2d;
+			}
+    }
+
+
+	//overloaded method for distance if node is teleported 
 
 
 	}//end of classs 
