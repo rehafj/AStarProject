@@ -114,7 +114,7 @@ public class Grid : MonoBehaviour {
                 	//if there is a path and it is not null 
                  if(path!=null) 
                 	if(path.Contains(node)){
-                		Debug.Log("drwaing node in black");
+                		//Debug.Log("drwaing node in black");
                 		Gizmos.color = Color.black;
                 		Gizmos.DrawCube(node.worldPosition, Vector3.one *(nodeDiameter - .1f));
                 		}
@@ -129,7 +129,7 @@ public class Grid : MonoBehaviour {
 
            	 	}
 
-                Gizmos.DrawCube(node.worldPosition, Vector3.one * (nodeDiameter - .1f));
+              //  Gizmos.DrawCube(node.worldPosition, Vector3.one * (nodeDiameter - .1f));
                 }
             }
         }
@@ -171,7 +171,7 @@ public class Grid : MonoBehaviour {
 	public void DrawPath(){	
 
 	foreach( Node n in path){
-		Debug.Log("Added path points " + n.worldPosition.ToString() +"to my vetor 3");
+		//Debug.Log("Added path points " + n.worldPosition.ToString() +"to my vetor 3");
 		botPath.Add(n.worldPosition);
 
 		}		
@@ -209,7 +209,7 @@ public class Grid : MonoBehaviour {
 
 	while(true){
 		temp = botPath[counter];
-		Debug.Log("bot path is "+ temp);
+		//Debug.Log("bot path is "+ temp);
 			
 		myMovingBot.transform.position = temp;
 			//yield return 5;t of range issue 
