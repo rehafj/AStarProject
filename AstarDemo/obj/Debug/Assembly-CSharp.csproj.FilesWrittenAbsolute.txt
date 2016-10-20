@@ -34,3 +34,5 @@
 /Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/rehaf/Desktop/AStarProject/AstarDemo/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
