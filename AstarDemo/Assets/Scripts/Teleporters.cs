@@ -6,6 +6,7 @@ public class Teleporters : MonoBehaviour {
 	PathFinding AddPath;
 	public Transform  NewTarget;
 	bool canTravel = true;
+	public AudioSource clip; 
 	// Use this for initialization
 
     //Allows for the cooldown period to actually countdown
@@ -14,6 +15,8 @@ public class Teleporters : MonoBehaviour {
 
 
     	AddPath =  FindObjectOfType<PathFinding>();
+   		clip = gameObject.GetComponent<AudioSource>();
+   		clip.playOnAwake = false;
 	//	AddPath.target = NewTarget;
     	/*8target1 = AddPath.target;
 		Findingbot1= AddPath.Findingbot;*/
@@ -51,6 +54,7 @@ public class Teleporters : MonoBehaviour {
                     collider.gameObject.transform.position = position;
 
                    if(canTravel){
+                   		clip.Play();
                   		 Debug.Log("can travel was true");
                   		 AddPath.newTarger = AddPath.target;
 						AddPath.AstarPathFinding(AddPath.Findingbot.position, NewTarget.position);
