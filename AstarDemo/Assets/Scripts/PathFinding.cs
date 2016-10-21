@@ -36,6 +36,10 @@ public class PathFinding : MonoBehaviour {
 		
 		AstarPathFinding(Findingbot.position, newTarger.position);
 		}
+		if(Input.GetKeyDown(KeyCode.X)){
+
+			SetGoals();
+		}
 	
 	}
 	// a method to set up the iniital target
@@ -98,24 +102,26 @@ public class PathFinding : MonoBehaviour {
 			//chec kif the neighboot is not walkable or naibor is in closed list 
 			//then move to other neighbor 
 
-			foreach (Node nei in getNeighbuors(temp)){
+
+			//foreach neighbor of the current node 
+			foreach (Node n in getNeighbuors(temp)){
 																						//Debug.Log("entred nehghnoot loop in main loop in astar  ");
-				if(! nei.walkable || closedList.Contains(nei)){
+				if(! n.walkable || closedList.Contains(n)){
 																						//Debug.Log("neigbot is not walkable or in closed list ");
 					continue;
 				}
 				//cost from cuttent - neighbor 
-				int newMoveCost = temp.gCost + getDistance(temp, nei);
+				int newMoveCost = temp.gCost + getDistance(temp, n);
 
-				if( newMoveCost < nei.gCost || !openList.Contains(nei)){
+				if( newMoveCost < n.gCost || !openList.Contains(n)){
 
-					nei.gCost = newMoveCost;
-					nei.hCost = getDistance(nei, goalNode);
-					nei.parentNode = temp;
+					n.gCost = newMoveCost;
+					n.hCost = getDistance(n, goalNode);
+					n.parentNode = temp;
 																										//Debug.Log("assigned parent node to temp ");
-					if(! openList.Contains(nei)){
+					if(! openList.Contains(n)){
 																										//Debug.Log("adding neighboor to open list  ");
-						openList.Add(nei); }
+						openList.Add(n); }
 				} //end if cost check 
 
 			}//end of foreach loop 
@@ -172,8 +178,6 @@ public class PathFinding : MonoBehaviour {
 					if( x== 0 && y == 0 && z == 0)
 						continue; 
 
-					//if( x== 0 && y == 0 )
-						//continue; 
 
 					Debug.Log("managed to continue  ");
 					int checkX = node.xGridLocation + x;
@@ -181,6 +185,7 @@ public class PathFinding : MonoBehaviour {
 					int checkz = node.ZGridLocation + z;
 
 					Debug.Log("got temp xyz postions  ");
+					//if it is in the gird 
 					if(checkX >= 0 && checkX < mygrid.gridSizeX 
 						 && checky >= 0 && checky < mygrid.gridSizeY 
 						&& checkz >= 0 && checkz < mygrid.gridSizeZ ){
