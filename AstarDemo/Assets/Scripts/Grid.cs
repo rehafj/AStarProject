@@ -141,7 +141,7 @@ public class Grid : MonoBehaviour {
         }
     
 
-        
+        //TODO: HE BRI DO THIS 
 
 
     //retuns te postion of the node in the x,z,y axsis plane //i.e.  in the world 
