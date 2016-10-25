@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics; //to messure perforamance
 
 public class PathFinding : MonoBehaviour {
 
@@ -18,7 +19,7 @@ public class PathFinding : MonoBehaviour {
 	public List<Node> openList;
 	public HashSet<Node> closedList;
 
-
+	Stopwatch s = new Stopwatch();
 ///***********************************************  class methods   **********************************///
 
 	void  Awake(){
@@ -27,19 +28,26 @@ public class PathFinding : MonoBehaviour {
 
 	// at the  start of the game and after the grid has been set up set and cacluate estimated costs based on gird locations and objects( teleporters, goal, bot) 
 	void Start(){
+
 		SetGoals();
+
 	}
 	//when the player hits space it will start path fidning 
 	public void Update(){
 		
 		if(Input.GetKeyDown(KeyCode.Space)){
-		
+		//testomg time via stopwatch for astar alone - not accurate to an extream point as its for pathfinding and not initial setup 
+		s.Start();
 		AstarPathFinding(Findingbot.position, newTarger.position);
+		s.Stop();
+		UnityEngine.Debug.Log("elaps time for a star "+ s.ElapsedMilliseconds.ToString());		
 		}
 		if(Input.GetKeyDown(KeyCode.X)){
 
 			SetGoals();
 		}
+
+	
 	
 	}
 	// a method to set up the iniital target
@@ -165,7 +173,7 @@ public class PathFinding : MonoBehaviour {
 
 	// to check neighbors of node - using list 
 	public  List<Node> getNeighbuors(Node node){
-		Debug.Log("enred get neghboors method  ");
+	//	Debug.Log("enred get neghboors method  ");
 		//create an empty list for the neghboors 
 		List<Node> neighboors = new List<Node>();
 		for (int x = -1 ; x<=1 ; x++){
@@ -179,12 +187,12 @@ public class PathFinding : MonoBehaviour {
 						continue; 
 
 
-					Debug.Log("managed to continue  ");
+			//		Debug.Log("managed to continue  ");
 					int checkX = node.xGridLocation + x;
 					int checky = node.yGridLocation + y;
 					int checkz = node.ZGridLocation + z;
 
-					Debug.Log("got temp xyz postions  ");
+				//	Debug.Log("got temp xyz postions  ");
 					//if it is in the gird 
 					if(checkX >= 0 && checkX < mygrid.gridSizeX 
 						 && checky >= 0 && checky < mygrid.gridSizeY 
@@ -276,7 +284,7 @@ public class PathFinding : MonoBehaviour {
 			temp = t2;
 			}
 
-		Debug.Log("teh closest trans porter is located at " + closenode.worldPosition);
+	//	Debug.Log("teh closest trans porter is located at " + closenode.worldPosition);
 
 		int goald, tran1d, tran2d;
 		int yc = Mathf.Abs(current.yGridLocation - goal.yGridLocation);
@@ -290,25 +298,25 @@ public class PathFinding : MonoBehaviour {
 		int zt1= Mathf.Abs(current.ZGridLocation - closenode.ZGridLocation);
 
 		tran1d= yt1+xt1+zt1;
-		Debug.Log("transporter one distance is" + tran1d.ToString());
+	//	Debug.Log("transporter one distance is" + tran1d.ToString());
 
 		int yt2 = Mathf.Abs(goal.yGridLocation - farnode.yGridLocation);
 		int xt2 = Mathf.Abs(goal.xGridLocation - farnode.xGridLocation);
 		int zt2= Mathf.Abs(goal.ZGridLocation - farnode.ZGridLocation);
 
 		tran2d= yt2+xt2+zt2;
-		Debug.Log("transporter two distance is" + tran2d.ToString());
+//		Debug.Log("transporter two distance is" + tran2d.ToString());
 
-		Debug.Log("goal distance is " +  goald.ToString() + " transporter disncatnces "+ (tran1d + tran2d).ToString() );
+	//	Debug.Log("goal distance is " +  goald.ToString() + " transporter disncatnces "+ (tran1d + tran2d).ToString() );
 		if (goald <(tran1d + tran2d) ){
 
-			Debug.Log("new target is the goal ");
+	//		Debug.Log("new target is the goal ");
 			this.newTarger = target;
 			}
 		else{
-			Debug.Log("new target is a transporter ");
+	//		Debug.Log("new target is a transporter ");
 			this.newTarger = temp;
-			Debug.Log("setting transporter as goal");
+		//	Debug.Log("setting transporter as goal");
 
 			}
     }
