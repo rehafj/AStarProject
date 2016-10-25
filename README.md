@@ -24,9 +24,14 @@ Inside the code document use the inline documentation to find the gravity cost, 
 To activate it, hit the play button, and then spacebar once.
 
 ###Contributors
-3D environment setup - Brittany 
+3D environment setup - Brittany
+
 Initial Astar implementation - Rehaf 
+
 Astar enhancements ( added gravity)  - Rehaf/Samara
+
 Teleportation implementation  -  Brittany/Samara
+
 Inline Doc - Whoever writes the code for that document
+
 Website & management - Samara
