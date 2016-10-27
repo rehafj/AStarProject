@@ -2,24 +2,36 @@
 ![](/Images/main.gif)
 
 ##Overview
-For our first project, we propose to implement modified pathfinding using A* in a 3 dimensional space.
-Our project will include both open paths that allow multiple routes to reach a given point, along with  gravity considerations that will affect pathfinding via the introduction of more “realistic” travel costs.
-In addition, we’d like to include (potentially adjustable) transporters in order to see how the shifted heuristic estimatesOur approach will use a static set of pathfinding nodes throughout the gameworld grid
+Welcome to Astar in space, an implementation of modified pathfinding using Astar in a 3 dimensional space.
+This project includes an open grid-based space that allows multiple routes to reach a given point, along with  gravity considerations that affect pathfinding via the introduction of more “realistic” travel costs. Also included are moveable functional transporters that the bot can pass through.
+
 ##Design and Technical Approach
-Initially we will have a basic A* implantation done in 3D space.The GameObject/agent implementing the A* algorithm will have four  basic movements: left, right, forward and backward to reach the desired Goal.  As an added feature the agent will move upwards and downwards with a modified cost heuristic due to gravity. In the Game world obstacles will be present, and the agent will avoid all of these obstacles in its journey to the goal. 
+The agent uses Astar and Manhattan distance estimates to move through the gameworld toward its goal. It has an adjustable gravity cost that affects its choice of paths. In the Game world obstacles are present and more can be added, and the agent avoids all of these obstacles in its journey to the goal. All coding was done in C sharp in the Unity environment.
 
-###brief summary 
-The path will be determined by estimating whatever returns a shorter path based on the grid’s node locations. If the total distance from the bot to the teleporter t1, and teleporter 2 t2 to the goal is shorter then it will take this route as its main path by calling the path a* finding method. 
-
-teleporter one and two are set up by their approximate locations to the bot or goal, where t1 is closer to the bot. 
+###Brief Summary of Additions 
+The agent chooses its path based on the grid, which comprises a framework of nodes. Initially it chooses between a direct path and using the transporter. If the total distance from the bot to the closest teleporter + the other teleporter to the goal is shorter than the distance to the goal from the start, it will take this route as its main path and set the closest transporter as its goal and call the Astar finding method to find the best path to that node. Once it exits the other transporter node it calls the method again with the original ending goal as its new goal. The movement cost for the agent is modified to simulate gravity, with the implication that a large body is underneath the map exerting the most force.
 
 ![](/Images/porter.gif)
 
-the other route will be calculated only if the route directly to the goal was estimated as the shorter path vs teleportation route
+The "more direct" route will be calculated only if it was estimated as the shorter path vs the teleportation route.
 
 ![](/Images/optionPlanet.gif)
 
-##constraints
-## Instructions
-## Contributors
+###Instructions
+Move the obstacles, bot, transporters, and goal by selecting the entire folder and using Unity's move tool. Make sure final positions lie within the grid space. To add more obstacles, duplicate whole folders for asteroids, and move and/or resize them as desired.
+Inside the code document use the inline documentation to find the gravity cost, and adjust if so desired.
 
+To activate it, hit the play button, and then spacebar once.
+
+###Contributors
+3D environment setup - Brittany
+
+Initial Astar implementation - Rehaf 
+
+Astar enhancements ( added gravity)  - Rehaf/Samara
+
+Teleportation implementation  -  Brittany/Samara
+
+Inline Doc - Whoever writes the code for that document
+
+Website & management - Samara
