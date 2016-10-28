@@ -1,20 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/// <summary>
+/// Node. class 
+/// </summary>
 public class Node {
     public bool walkable;
     public Vector3 worldPosition;
      // (x,y,z )  postion of the object, reminder our y is our z and vise versa 
     //costs used in a star calulations for node values 
-    public int hCost; //huristic cost 
-	public int gCost;
+    public int hCost; //huristic cost - estimated
+	public int gCost;  //movement cost 
 //	public float fcost;
 	//
 
 	public int xGridLocation, yGridLocation, ZGridLocation;
 
 	public int fCost{
-	//getter method to set the fcost for a givin node 
+	//getter method to set the fcost for a givin node and return it 
 		get {
 			return hCost+ gCost;
 		}
