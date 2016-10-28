@@ -87,12 +87,12 @@ public class Grid : MonoBehaviour {
 					// Vector3.forward * (y * nodeDiameter + nodeRadius);
 					Vector3.forward * (y * nodeDiameter + nodeRadius) + Vector3.up * (z* nodeDiameter + nodeRadius); 
 
-					 //collision check with the world point( vector 3 pos) and the node radiuos - and defined by unwalkable mask
+					 //collision check with the world point( vector 3 pos) and the node radiuos - and c by unwalkable mask
 					 	
                		 	 bool walkable = !(Physics.CheckSphere(worldPzoint, nodeRadius,unwalkableMask));
 
                		 //populate the grid with nodes 
-               		 // constructor set it with the postion and bool value and reprresintaion  
+               		 // cretae the node, call its constructor - pass the postion and place it in the grid 
 					grid[x, y, z] = new Node(walkable, worldPzoint, x, y, z);
 
 
@@ -100,15 +100,16 @@ public class Grid : MonoBehaviour {
             }
         }
     }
-     
+
+//this is for debugging purpoes 
     void OnDrawGizmos()
     {
         Gizmos.DrawWireCube(transform.position, new Vector3(gridWorldSize.x, gridWorldSize.z, gridWorldSize.y));
 
         // draw cubes for refrence  and debugging 
-
+        //get locations of node and bot for debugging as represnted on a node 
         if (grid != null){
-        	//draw the player/ bot  for debugging purpises and gets the location 
+        																		//draw the player/ bot  for debugging purpises and gets the location 
 			Node botNode = GetNodeLocation( Bot.position);
 			Node goalnode = GetNodeLocation(GOAL.position);
 																				// loop through the nodes in the grid 
@@ -134,14 +135,14 @@ public class Grid : MonoBehaviour {
 					Gizmos.color = Color.yellow;
 
            	 	}
-
+           	 	// uncomment this to play  see each node in the 3d world 
               //  Gizmos.DrawCube(node.worldPosition, Vector3.one * (nodeDiameter - .1f));
                 }
             }
         }
     
 
-        //TODO: HE BRI DO THIS 
+       
 
 
     //retuns te postion of the node in the x,z,y axsis plane //i.e.  in the world 
@@ -155,7 +156,7 @@ public class Grid : MonoBehaviour {
 	    //calcakte the precentage and make sure we are in the world
 	    float xprec = (worldPos.x +gridWorldSize.x/2) / gridWorldSize.x;
 		float yPrex = (worldPos.z +gridWorldSize.y/2) / gridWorldSize.y;
-		float ZPrex = (worldPos.y +gridWorldSize.z/2) / gridWorldSize.z;//note to seld test z and y values. 
+		float ZPrex = (worldPos.y +gridWorldSize.z/2) / gridWorldSize.z;//TODO to self test z and y values. 
 
 		//clamp values between 0 an 1 
 			xprec = Mathf.Clamp01(xprec);
@@ -172,30 +173,41 @@ public class Grid : MonoBehaviour {
     }
 
     /// <summary>
-    /// for debugging and checking 
+    /// 
+    /// and actulaly moving the path 
     /// </summary>
 	public void DrawPath(){	
-
+	//loop through nodes stored in our path 
 	foreach( Node n in path){
 		//Debug.Log("Added path points " + n.worldPosition.ToString() +"to my vetor 3");
+																							//add that nodes postion(V3) as a vector 3 into a list og vector 3
 		botPath.Add(n.worldPosition);
 
 		}		
-		StopCoroutine("MoveObjAlongPath");
-		StartCoroutine("MoveObjAlongPath");
+		StopCoroutine("MoveObjAlongPath"); //stop old movment 
+		StartCoroutine("MoveObjAlongPath"); // start new movment 
 
 	}
 
-	IEnumerator MoveObjAlongPath(){
+
+	//actually move the path 
+	/// <summary>
+	/// Moves the object along path.
+	///
+	/// </summary>
+	/// <returns>Move The object along path.</returns>
+	IEnumerator MoveObjAlongPath(){										//set a pointer at intiial postion 
 		Vector3 temp = botPath[0];
 
 	while(true){
+																			//loop though - while looping move the bots postion to pur temps postion(increases with each iteration) unitill the counter = path's length 
+																			//once it is equal to it exit (reached end of list ) exit loop
 		temp = botPath[counter];
 		//Debug.Log("bot path is "+ temp);
 			
 		myMovingBot.transform.position = temp;
 			//yield return 5;t of range issue 
-			//to fix the bug of index ou
+			//to fix the bug of index out of range
 			if(counter == botPath.Count -1)
 				break;
 		counter++;

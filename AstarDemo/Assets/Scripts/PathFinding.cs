@@ -42,6 +42,8 @@ public class PathFinding : MonoBehaviour {
 		s.Stop();
 		UnityEngine.Debug.Log("elaps time for a star "+ s.ElapsedMilliseconds.ToString());		
 		}
+
+		//when theplayer hits x it will recalulate and reset goals 
 		if(Input.GetKeyDown(KeyCode.X)){
 
 			SetGoals();
@@ -50,7 +52,7 @@ public class PathFinding : MonoBehaviour {
 	
 	
 	}
-	// a method to set up the iniital target
+	//  method to set up the iniital targetby calling and calucating hcosts - sends in represntions nodes of transporters goal and start node from inspector 
 	public void SetGoals(){
 		Node startNode = mygrid.GetNodeLocation(Findingbot.position);
 		Node goalNode = mygrid.GetNodeLocation(target.position);
@@ -62,9 +64,10 @@ public class PathFinding : MonoBehaviour {
 																												//Debug.Log(newTarger.position.ToString() + "new target postion ");
 
 	}
-	//, Vector3   tranOne, Vector3 transTwo t1.position, t2.position 
+	//
 	/// <summary>
-	/// Astars the path finding.
+	/// A star  path finding.
+	/// finds and returns the path from a start pos to a targe postion 
 	/// </summary>
 	/// <param name="start_pos">Start position.</param>
 	/// <param name="target_pos">Target position.</param>
@@ -106,7 +109,7 @@ public class PathFinding : MonoBehaviour {
 
 			}
 
-			//for each loop through the neigboots of our temp if ( path is not found) 
+			//for each loop through the neigboots of our temp/current if ( path is not found) 
 			//chec kif the neighboot is not walkable or naibor is in closed list 
 			//then move to other neighbor 
 
@@ -120,20 +123,20 @@ public class PathFinding : MonoBehaviour {
 				}
 				//cost from cuttent - neighbor 
 				int newMoveCost = temp.gCost + getDistance(temp, n);
-
+				//if our new move cost has less than our iterated node n's gcost or it is not in the open lis  - set it gcost to the the gnode - calcualye the ditance to the end node 
 				if( newMoveCost < n.gCost || !openList.Contains(n)){
 
-					n.gCost = newMoveCost;
-					n.hCost = getDistance(n, goalNode);
-					n.parentNode = temp;
+					n.gCost = newMoveCost;					//se gcost to have the new movment cost 
+					n.hCost = getDistance(n, goalNode); //calcuate distance to end node 
+					n.parentNode = temp;				// set out parent node(pointer) to temp/current node
 																										//Debug.Log("assigned parent node to temp ");
-					if(! openList.Contains(n)){
+					if(! openList.Contains(n)){				//at teh end of it if it doesnt have n in the open list 
 																										//Debug.Log("adding neighboor to open list  ");
-						openList.Add(n); }
-				} //end if cost check 
+						openList.Add(n); }						// add the current checked node( from the neighnot lst) to the open list 
+				} //end if cost check  							//loop back 
 
 			}//end of foreach loop 
-		}//end of main wh ile lopp 
+		}//end of main while lopp 
 	}//end of A star 
 
 	public void getPathBack(Node startingNode, Node EndingNode){
@@ -172,6 +175,11 @@ public class PathFinding : MonoBehaviour {
 
 
 	// to check neighbors of node - using list 
+	/// <summary>
+	/// Gets the neighbuor - returns a list of negibors of the current node 
+	/// </summary>
+	/// <returns>The neighbuors.</returns>
+	/// <param name="node">current node.</param>
 	public  List<Node> getNeighbuors(Node node){
 	//	Debug.Log("enred get neghboors method  ");
 		//create an empty list for the neghboors 
@@ -210,7 +218,8 @@ public class PathFinding : MonoBehaviour {
 	/// <summary>
 	/// to calcualte costs with gravity constraints 
 	/// </summary>
-	/// <returns>The distance.</returns>
+	/// <returns>The distance/cost ebtween two ndoes a and b, current node to next node  .</returns>
+	/// or returns distanc/cost ebwteen current node and goal node - dependent on what we send from path fidning  --- 
 	/// <param name="a">The alpha component.</param>
 	/// <param name="b">The blue component.</param>
 	public int getDistance( Node a, Node b){
@@ -247,10 +256,11 @@ public class PathFinding : MonoBehaviour {
 	/// calcualte initial costs to set target at the begining
 	/// </summary>
 	/// <returns>The port hcost.</returns>
-	/// <param name="current">Current.</param>
-	/// <param name="goal">Goal.</param>
-	/// <param name="_tran1">Tran1.</param>
-	/// <param name="_tran2">Tran2.</param>
+	/// <param name="current">start node .</param>
+	/// <param name="goal">Goal / end goal node .</param>
+	/// <param name="_tran1">Transporter one as a node .</param>
+	/// <param name="_tran2">Tran2. as a node </param>
+	//
 	public   void getPortHcost(Node current, Node goal , Node _tran1, Node _tran2){
 
 	//current = start node 
