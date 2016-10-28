@@ -24,7 +24,7 @@ Inside the code document use the inline documentation to find the gravity cost, 
 To activate it, hit the play button, and then spacebar once.
 
 ###Contributors
-3D environment setup - Brittany
+3D environment setup - Brittany /Rehaf 
 
 Initial Astar implementation - Rehaf 
 
